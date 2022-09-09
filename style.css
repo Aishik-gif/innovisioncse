@@ -16,15 +16,17 @@ body * {
 
 ul{
     list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 img.carousel{
-    width: 640px;
-    height: 426px;
+    width: 320px;
+    height: auto;
 }
 
 body{
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -36,10 +38,126 @@ header{
     width: 100vw;
     justify-content: space-around;
     padding: 40px 0 20px 0;
+    background: rgb(176, 197, 216);
+}
+
+header h1{
+    font-size: 2rem;
+}
+
+button{
+    padding: 5px 20px;
+    background: none;
+    border-radius: 10px;
+}
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;;
 }
 
 .header-links{
     display: flex;
     width: 300px;
     justify-content: space-between;
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    background: rgb(48, 120, 159);
+}
+
+.box1-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box1-header{
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.images{
+    display: flex;
+}
+.container{
+    display: flex;
+    align-items: center;
+    width: 320px;
+    height: fit-content;
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    background: rgb(172, 214, 236);
+}
+
+.box2-header{
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 40px 0;
+}
+
+.box2-image{
+    height: 240px;
+    width: 640px;
+    overflow: hidden;
+}
+
+.box2-image img{
+    margin: -70px 0;
+}
+
+.box2-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box2-text{
+    padding: 50px 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 70%;
+    text-align: center;
+}
+
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    background: rgb(48, 120, 159);
+}
+
+.box3-header{
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 40px 0;
+}
+
+footer{
+    height: 40px;
+    width: 100%;
+    background: rgb(215, 215, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
